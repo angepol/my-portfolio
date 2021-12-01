@@ -1,5 +1,4 @@
 
-
 import { Route, Switch, useLocation } from "react-router";
 import Sidebar from "./Sidebar";
 import Home from "./Pages/Home";

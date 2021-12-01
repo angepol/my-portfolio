@@ -3,10 +3,11 @@ import React, { useState } from "react";
 //All the svg files
 import logo from "../assets/logo.svg";
 import Home from "../assets/home-solid.svg";
-import About from "../assets/social.svg";
-import Calender from "../assets/sceduled.svg";
+import About from "../assets/starred.svg";
 import Projects from "../assets/starred.svg";
-import Documents from "../assets/draft.svg";
+import Tools from "../assets/starred.svg";
+import Contact from "../assets/starred.svg";
+import Resume from "../assets/starred.svg";
 import PowerOff from "../assets/power-off-solid.svg";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
@@ -257,7 +258,7 @@ const Sidebar = () => {
             >
 
             <img src={Projects} alt="Projects" />
-            <Text clicked={click}>Resume</Text>
+            <Text clicked={click}>Resumé</Text>
           </Item>
         </SlickBar>
 
